@@ -44,68 +44,21 @@ HackerStories/
 ├── Program.cs              # Entry point for the backend
 └── HackerStories.sln       # Solution file
 
-Setup Instructions
-Prerequisites
-Backend:
-.NET SDK (7.0 or later)
-MS SQL Server
-Frontend:
-Node.js (16 or later)
-Angular CLI
-Steps
-1. Clone the Repository
-Run the following commands in your terminal:
+## 🖥️ Setup Instructions
 
-bash
-Copy code
+### Prerequisites
+#### Backend:
+- .NET SDK (7.0 or later)
+- MS SQL Server
+
+#### Frontend:
+- Node.js (16 or later)
+- Angular CLI
+
+### Steps
+
+#### 1. Clone the Repository
+Run the following commands in your terminal:
+```bash
 git clone https://github.com/your-username/hacker-stories.git
 cd hacker-stories
-2. Backend Setup
-Navigate to the backend directory:
-bash
-Copy code
-cd HackerStories
-Restore dependencies:
-bash
-Copy code
-dotnet restore
-Update the connection string in appsettings.json to point to your SQL Server database.
-Apply migrations (if applicable):
-bash
-Copy code
-dotnet ef database update
-3. Frontend Setup
-Navigate to the frontend directory:
-bash
-Copy code
-cd hacker-stories-frontend
-Install dependencies:
-bash
-Copy code
-npm install
-▶️ Running the Application
-Backend:
-Start the backend server:
-bash
-Copy code
-dotnet run
-The API will be available at http://localhost:5000.
-Frontend:
-Start the frontend server:
-bash
-Copy code
-ng serve
-Access the application at http://localhost:4200.
-🧪 Running Tests
-Backend Tests
-Run backend tests with:
-
-bash
-Copy code
-dotnet test
-Frontend Tests
-Run frontend tests with:
-
-bash
-Copy code
-npm test
