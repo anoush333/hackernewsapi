@@ -1,48 +1,54 @@
-# hackernewsapi
-Angular project with Csharp api to get Hacker News API info
 HackerStories
-HackerStories is a full-stack web application designed to provide a platform for sharing and discovering stories. The project features a robust backend built with .NET Core and a dynamic frontend developed using Angular.
+HackerStories is a full-stack web application for sharing and discovering engaging stories. It features a robust backend built with .NET Core and a dynamic frontend developed using Angular.
 
-Table of Contents
-Features
-Technologies Used
-Setup Instructions
-Running the Application
-Running Tests
-Project Structure
-Contributing
-License
-Features
-User-Friendly Interface: Modern and responsive design.
-Story Management: Create, read, update, and delete stories.
-Pagination: Efficient display of large datasets.
-Caching: Improved performance using server-side caching.
-Secure API: Secure and scalable backend with .NET Core.
-Technologies Used
+🚀 Features
+User-Friendly Interface: Modern, responsive design for seamless user interaction.
+Story Management: Create, view, update, and delete stories effortlessly.
+Pagination: Optimized performance for large datasets.
+Caching: Server-side caching for faster load times.
+Secure API: Scalable and secure backend architecture.
+🛠️ Technologies Used
 Backend:
 Framework: .NET Core
 Database: MS SQL Server
-Testing Framework: xUnit/NUnit/MSTest (depending on the setup)
-Caching: Implemented server-side caching.
+Testing Framework: xUnit/NUnit/MSTest
+Caching: Server-side caching for improved performance
 Frontend:
 Framework: Angular
 Testing Framework: Jasmine + Karma
 Build Tools: Node.js, npm
-Setup Instructions
+📂 Project Structure
+plaintext
+Copy code
+HackerStories/
+├── BackEndServices/        # Backend services and business logic
+├── Controllers/            # API controllers for routing
+├── Models/                 # Data models
+├── hacker-stories-frontend/ # Angular frontend code
+│   ├── src/                # Frontend source files
+│   ├── package.json        # Frontend dependencies
+│   └── tsconfig.json       # TypeScript configuration
+├── appsettings.json        # Backend app configuration
+├── Program.cs              # Entry point for the backend
+└── HackerStories.sln       # Solution file
+🖥️ Setup Instructions
 Prerequisites
 Backend:
-.NET SDK (version 7.0 or later)
+.NET SDK (7.0 or later)
 MS SQL Server
 Frontend:
-Node.js (version 16 or later)
-Angular CLI (if running locally)
-Clone the Repository
+Node.js (16 or later)
+Angular CLI
+Steps
+Clone the repository:
+
 bash
 Copy code
-git clone https://github.com/your-repo/hacker-stories.git
+git clone https://github.com/your-username/hacker-stories.git
 cd hacker-stories
-Backend Setup
-Navigate to the backend root directory:
+Backend Setup:
+
+Navigate to the backend directory:
 bash
 Copy code
 cd HackerStories
@@ -50,12 +56,13 @@ Restore dependencies:
 bash
 Copy code
 dotnet restore
-Update the connection string in appsettings.json to point to your SQL Server.
+Update the connection string in appsettings.json to point to your database.
 Apply migrations (if applicable):
 bash
 Copy code
 dotnet ef database update
-Frontend Setup
+Frontend Setup:
+
 Navigate to the frontend directory:
 bash
 Copy code
@@ -64,28 +71,28 @@ Install dependencies:
 bash
 Copy code
 npm install
-Running the Application
-Backend
+▶️ Running the Application
+Backend:
 Start the backend server:
 bash
 Copy code
 dotnet run
-The API will be available at http://localhost:5000.
-Frontend
+API will be available at http://localhost:5000.
+Frontend:
 Start the frontend server:
 bash
 Copy code
 ng serve
-Access the application at http://localhost:4200.
-Running Tests
-Backend
-Run all backend tests:
+Access the app at http://localhost:4200.
+🧪 Running Tests
+Backend:
+Run backend tests with:
 
 bash
 Copy code
 dotnet test
-Frontend
-Run all frontend tests:
+Frontend:
+Run frontend tests with:
 
 bash
 Copy code
