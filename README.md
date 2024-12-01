@@ -69,4 +69,114 @@ cd hacker-stories
 
 ### Backend:
 cd HackerStories
+Restore dependencies:
 
+Run the following command to restore all required packages:
+dotnet restore
+
+ Frontend Setup
+Follow these steps to set up the frontend:
+
+Navigate to the frontend directory:
+
+cd hacker-stories-frontend
+Install dependencies:
+
+Use the following command to install all required packages:
+
+npm install
+
+
+Here’s the updated README.md file with proper spacing and formatting for Backend Setup and Frontend Setup, optimized for GitHub:
+
+markdown
+Copy code
+## 🖥️ Setup Instructions
+
+### Prerequisites
+
+#### Backend:
+- .NET SDK (7.0 or later)
+- MS SQL Server
+
+#### Frontend:
+- Node.js (16 or later)
+- Angular CLI
+
+---
+
+### Steps
+
+#### 1. Clone the Repository
+Run the following commands in your terminal:
+
+```bash
+git clone https://github.com/your-username/hacker-stories.git
+cd hacker-stories
+2. Backend Setup
+Follow these steps to set up the backend:
+
+Navigate to the backend directory:
+
+bash
+Copy code
+cd HackerStories
+Restore dependencies:
+
+Run the following command to restore all required packages:
+
+bash
+Copy code
+dotnet restore
+Update the connection string:
+
+Open the appsettings.json file and update the database connection string to point to your SQL Server instance.
+
+Apply migrations (if applicable):
+
+Use the following command to apply database migrations:
+
+bash
+Copy code
+dotnet ef database update
+3. Frontend Setup
+Follow these steps to set up the frontend:
+
+Navigate to the frontend directory:
+
+bash
+Copy code
+cd hacker-stories-frontend
+Install dependencies:
+
+Use the following command to install all required packages:
+
+bash
+Copy code
+npm install
+▶️ Running the Application
+Backend
+Start the backend server:
+
+bash
+Copy code
+dotnet run
+The API will be available at http://localhost:5000.
+
+Frontend
+Start the frontend server:
+
+bash
+Copy code
+ng serve
+Access the application at http://localhost:4200.
+
+ Running Tests
+Backend Tests
+Run backend tests with:
+
+dotnet test
+Frontend Tests
+Run frontend tests with:
+
+npm test
