@@ -66,3 +66,7 @@ Run the following commands in your terminal:
 ```bash
 git clone https://github.com/your-username/hacker-stories.git
 cd hacker-stories
+
+### Backend:
+cd HackerStories
+
