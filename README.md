@@ -47,6 +47,7 @@ HackerStories/
 ## 🖥️ Setup Instructions
 
 ### Prerequisites
+
 #### Backend:
 - .NET SDK (7.0 or later)
 - MS SQL Server
@@ -55,10 +56,13 @@ HackerStories/
 - Node.js (16 or later)
 - Angular CLI
 
+---
+
 ### Steps
 
 #### 1. Clone the Repository
 Run the following commands in your terminal:
+
 ```bash
 git clone https://github.com/your-username/hacker-stories.git
 cd hacker-stories
